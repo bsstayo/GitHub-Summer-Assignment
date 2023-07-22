@@ -22,7 +22,7 @@
 ```
 
 ## Contributors
- - 김도훈 @basstayo
+ - 김도훈 @bsstayo
  - 정찬영 @jcy0308
 
 ## Link
