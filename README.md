@@ -9,8 +9,16 @@
 - 궁금하신 회차의 로또 당첨번호를 알려드립니다!
 
 ### 사용 방법
-```pythpn
-    
+
+```bash
+    git clone https://github.com/bsstayo/GitHub-Summer-Assignment.git
+```
+```bash
+    cd GitHub-Summer-Assignment
+    cd test
+```
+```bash
+    ./main.py
 ```
 
 ## Contributors
