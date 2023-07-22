@@ -4,13 +4,16 @@
 
 ![main_image](https://play-lh.googleusercontent.com/eUVpXzvy-5cGRnp025XcAnXN7HS2QFftJBcDW7EdAoH4OPD50sq2LaI0bVffDFyduQ)
 
-##설명
+## 설명
 
 
-##Contributors
 
 
-##Link
+## Contributors
+ - 김도훈 @basstayo
+ - 정찬영 @jcy0308
+
+## Link
 
 동행 복권에 대해 더 자세히 알고 싶으시다면 아래의 링크를 참고해주세요!
 
