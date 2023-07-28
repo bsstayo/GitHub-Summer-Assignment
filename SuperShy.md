@@ -15,3 +15,4 @@ Looking pretty, follow me, 우리 둘이 나란히
 보이지? 내 눈이 갑자기 빛나지 when you say I'm your dream
 You don't even know my name, do you?
 You don't even know my name, do you?
+누구보다도 I'm super shy, super shy
