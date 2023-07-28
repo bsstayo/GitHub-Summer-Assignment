@@ -16,3 +16,4 @@ Looking pretty, follow me, 우리 둘이 나란히
 You don't even know my name, do you?  
 You don't even know my name, do you?  
 누구보다도 I'm super shy, super shy  
+But wait a minute while I make you mine, make you mine  
