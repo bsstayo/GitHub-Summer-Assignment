@@ -12,3 +12,4 @@ I wanna tell you but I'm super shy, super shy
 And I wanna go out with you, where you wanna go? (Huh?)  
 Find a lil' spot, just sit and talk  
 Looking pretty, follow me, 우리 둘이 나란히  
+보이지? 내 눈이 갑자기 빛나지 when you say I'm your dream  
