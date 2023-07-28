@@ -11,7 +11,7 @@ touch $MD
 echo "# Title: SUPER SHY by newjeans  " >> $MD
 git add $MD && git commit -m "feat: 타이틀 추가"
 
-echo "![supershy album](./supershy)  " >> $MD
+echo "![supershy album](./tools/supershy.jpg)  " >> $MD
 git add $MD && git commit -m "feat: 앨범 커버 추가"
 
 echo "I'm super shy, super shy  " >> $MD
