@@ -2,9 +2,9 @@
 
 MD=SuperShy.md
 
-apt-get install git-lfs 
+apt-get install git-lfs || brew install git-lfs
 git lfs install
-git lfs track "*.png"
+git lfs track "*.jpg"
 
 touch $MD
 
