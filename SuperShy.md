@@ -31,3 +31,4 @@ But wait a minute while I make you mine, make you mine
 I wanna tell you but I'm super shy, super shy  
 And I wanna go out with you, where you wanna go? (Huh?)  
 Find a lil' spot, just sit and talk  
+Looking pretty, follow me, 우리 둘이 나란히  
