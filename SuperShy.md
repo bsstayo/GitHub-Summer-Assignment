@@ -35,3 +35,4 @@ I wanna tell you but I'm super shy, super shy
 You don't even know my name, do you?  
 You don't even know my name, do you?  
 누구보다도  
+You don't even know my name (super shy, super shy)  
