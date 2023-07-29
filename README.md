@@ -1,5 +1,3 @@
-
-
 # Git-Summer-Assignment Week 2
 **가사 출력 shell script 만들기**
 
@@ -27,7 +25,7 @@
 
 ## Contributors
 
-- @@bsstayo
+- @bsstayo
 - @jcy0308
 
 # Git-Summer-Assigment Week 1 
