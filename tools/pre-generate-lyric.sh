@@ -38,9 +38,6 @@ git add $MD && git commit -m "feat: 일곱번째 가사줄 추가"
 echo "I wanna tell you but I'm super shy, super shy  " >> $MD
 git add $MD && git commit -m "feat: 여덟번째 가사줄 추가"
 
-echo "I wanna tell you but I'm super shy, super shy  " >> $MD
-git add $MD && git commit -m "feat: 여덟번째 가사줄 추가"
-
 echo "And I wanna go out with you, where you wanna go? (Huh?)  " >> $MD
 git add $MD && git commit -m "feat: 아홉번째 가사줄 추가"
 
@@ -60,13 +57,13 @@ echo "You don't even know my name, do you?  " >> $MD
 git add $MD && git commit -m "feat: 열네번째 가사줄 추가"
 
 echo "누구보다도 I'm super shy, super shy  " >> $MD
-git add $MD && git commit -m "feat: 열세번째 가사줄 추가"
-
-echo "But wait a minute while I make you mine, make you mine  " >> $MD
 git add $MD && git commit -m "feat: 열다섯번째 가사줄 추가"
 
+echo "But wait a minute while I make you mine, make you mine  " >> $MD
+git add $MD && git commit -m "feat: 열여섯번째 가사줄 추가"
+
 echo "떨리는 지금도 you're on my mind all the time  " >> $MD
-git add $MD && git commit -m "feat: 열여섯째 가사줄 추가"
+git add $MD && git commit -m "feat: 열일곱번째 가사줄 추가"
 
 echo "I wanna tell you but I'm super shy, super shy  " >> $MD
-git add $MD && git commit -m "feat: 열일곱째 가사줄 추가"
+git add $MD && git commit -m "feat: 열여덟번째 가사줄 추가"
