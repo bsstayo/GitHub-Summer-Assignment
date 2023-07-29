@@ -1,4 +1,4 @@
-# GitHub-Summer-Assignment
+# Git-Summer-Assignment
 
 ## Discription
 ### Purpose
