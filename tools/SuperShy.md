@@ -5,3 +5,4 @@ I wanna tell you but I'm super shy, super shy
 나 원래 말도 잘하고 그런데 왜 이런지? I don't like that  
 Something odd about you, yeah, you're special and you know it You're the top, babe  
 I'm super shy, super shy  
+But wait a minute while I make you mine, make you mine  
