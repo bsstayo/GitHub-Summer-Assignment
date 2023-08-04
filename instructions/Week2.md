@@ -1,4 +1,5 @@
-**Week2: New Jeans - Super Shy 가사생성기**
+Week2: New Jeans - Super Shy 가사생성기
+====================================
 
 ### 자동으로 SuperShy 가사를 생성해드립니다!
 ![main_image](https://media.tenor.com/znDanhSC4yMAAAAd/newjeans-super-shy.gif)
@@ -10,6 +11,7 @@
 - 가사 생성과 동시에 가사 한줄마다 자동으로 커밋
 - merge confilct 발생시 해결
 - tag & release 적용
+<br>
 
 ## 사용방법
 
@@ -20,6 +22,7 @@
    ./tools/pre-generate-lyric.sh
    ./tools/post-generate-lyric.sh 
 ```
+<br>
 
 ## Link
-[Super Shy](https://youtu.be/ArmDp-zijuc)
+[NewJeans (뉴진스) 'Super Shy' Official MV](https://youtu.be/ArmDp-zijuc)

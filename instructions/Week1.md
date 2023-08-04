@@ -1,12 +1,14 @@
-**Week1: 복권 번호 조회기**
+Week1: 복권 번호 조회기
+===================
 
 ![main_image](https://play-lh.googleusercontent.com/eUVpXzvy-5cGRnp025XcAnXN7HS2QFftJBcDW7EdAoH4OPD50sq2LaI0bVffDFyduQ)
 
 ## 설명
 
 - 궁금하신 회차의 로또 당첨번호를 알려드립니다!
+<br>
 
-### 사용 방법
+## 사용 방법
 
 ```bash
     git clone https://github.com/bsstayo/GitHub-Summer-Assignment.git
@@ -18,6 +20,7 @@
 ```bash
     ./main.py
 ```
+<br>
 
 ## Link
 
