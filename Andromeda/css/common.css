@@ -1,0 +1,140 @@
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+
+.b-example-divider {
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+.b-example-vr {
+    flex-shrink: 0;
+    width: 1.5rem;
+    height: 100vh;
+}
+
+.bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+}
+
+.nav-scroller {
+    position: relative;
+    z-index: 2;
+    height: 2.75rem;
+    overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-bottom: 1rem;
+    margin-top: -1px;
+    overflow-x: auto;
+    text-align: center;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+}
+.container {
+    max-width: 960px;
+}
+  
+/*
+* Custom translucent site header
+*/
+  
+.site-header {
+    background-color: rgba(22, 22, 23, .8);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+}
+
+.site-header a {
+    color: #cecece;
+    transition: color .15s ease-in-out;
+    text-decoration: none;
+}
+
+.site-header a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.bosang {
+    margin-top: 3rem;
+    border-bottom: 1px solid var(--footer-border-color);
+    padding: 17px 0 11px;
+    color: grey;
+    font-size: 14px;
+}
+
+.gakju {
+    margin-top: 1rem;
+    border-bottom: 1px solid var(--footer-border-color);
+    color: grey;
+    font-size: 14px;
+}
+
+.main-bosang {
+    margin-left: 5rem!important;
+    margin-right: 5rem!important;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    border-bottom: 1px solid var(--footer-border-color);
+    padding: 17px 0 11px;
+    color: grey;
+    font-size: 14px;
+}
+
+.footer-margin {
+    margin-top: 2rem!important;
+    margin-bottom: 3rem!important;
+}
+
+.main-footer-margin {
+    margin-top: 1rem!important;
+    margin-bottom: 2rem!important;
+    margin-left: 5rem!important;
+    margin-right: 5rem!important;
+}
+
+.footnote-number {
+    position: relative;
+    vertical-align: initial;
+    font-feature-settings: "numr";
+    font-size: 1em;
+}
+
+.footnote a {
+    vertical-align: inherit;
+    color: inherit;
+    font-size: 10px;
+}
+
+.link:link, .link:visited, a:link, a:visited {
+    text-decoration: none;
+}
+
+.add-footer {
+    margin-top: 3rem!important;
+}
+
+sub, sup {
+    position: relative;
+    font-size: .75em;
+    line-height: 0;
+    vertical-align: baseline;
+}

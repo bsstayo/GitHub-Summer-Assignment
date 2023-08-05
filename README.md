@@ -14,6 +14,6 @@
 ## Weekly Instructions
 [Week 1](./instructions/Week1.md) <br>
 [Week 2](./instructions/Week2.md) <br>
-Week 3 <br>
+[Week 3](./instructions/Week3.md) <br>
 Week 4 <br>
 Week 5 <br>
