@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.104.2">
+    <title>안드로메다 폰 구매</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/common.css">
+    <link href="../css/cart.css" rel="stylesheet">
+  </head>
+  <body class="bg-light">
+    <header class="site-header sticky-top py-1">
+      <nav class="container d-flex flex-column flex-md-row justify-content-between ">
+        <a class="py-2" href="product.html" aria-label="Product">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mx-auto" role="img" viewBox="0 0 24 24">
+              <title>Product</title>
+              <circle cx="12" cy="12" r="10"></circle>
+              <path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"></path>
+          </svg>
+        </a>
+        <a class="py-2 d-none d-md-inline-block" href="product.html">Product</a>
+        <a class="py-2 d-none d-md-inline-block" href="price.html">Pricing</a>
+        <a class="py-2 d-none d-md-inline-block" href="cart.html">Cart</a>
+      </nav>
+  </header>
+<div class="container">
+  <main>
+    <div class="py-5 text-center">
+      <img class="d-block mx-auto mb-4" src="../images/Android_logo.png" alt="" width="72" height="57">
+      <h2>안드로메다 폰 구매</h2>
+      <p class="lead">주문에 필요한 정보를 입력해주세요</p>
+    </div>
+
+    <div class="row g-5">
+      <div class="col-md-5 col-lg-4 order-md-last">
+        <h4 class="d-flex justify-content-between align-items-center mb-3">
+          <span class="text-primary">쇼핑카트</span>
+          <span class="badge bg-primary rounded-pill">3</span>
+        </h4>
+        <ul class="list-group mb-3">
+          <li class="list-group-item d-flex justify-content-between lh-sm">
+            <div>
+              <h6 class="my-0">안드로메다 15</h6>
+              <small class="text-muted">기본 모델</small>
+            </div>
+            <span class="text-muted">950,000원</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between lh-sm">
+            <div>
+              <h6 class="my-0">안드로메다 폰 15 pro</h6>
+              <small class="text-muted">플래그쉽 모델</small>
+            </div>
+            <span class="text-muted">1,350,000원</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between bg-light">
+            <div class="text-success">
+              <h6 class="my-0">할인 쿠폰</h6>
+              <small>DISCOUNT</small>
+            </div>
+            <span class="text-success">−300,000원</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between">
+            <span>Total (원)</span>
+            <strong>2,000,000원</strong>
+          </li>
+        </ul>
+
+        <form class="card p-2">
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="쿠폰 번호를 입력하세요">
+            <button type="submit" class="btn btn-secondary" id="promo">쿠폰 적용하기</button>
+          </div>
+        </form>
+      </div>
+      <div class="col-md-7 col-lg-8">
+        <h4 class="mb-3">주소</h4>
+        <form class="needs-validation" novalidate>
+          <div class="row g-3">
+            <div class="col-sm-6">
+              <label for="firstName" class="form-label">성</label>
+              <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
+              <div class="invalid-feedback">
+                유효한 성을 입력해 주세요
+              </div>
+            </div>
+
+            <div class="col-sm-6">
+              <label for="lastName" class="form-label">이름</label>
+              <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+              <div class="invalid-feedback">
+                유효한 이름을 입력해 주세요
+              </div>
+            </div>
+
+            <div class="col-12">
+              <label for="username" class="form-label">깃허브 유저네임</label>
+              <div class="input-group has-validation">
+                <span class="input-group-text">@</span>
+                <input type="text" class="form-control" id="username" placeholder="Username" required>
+              <div class="invalid-feedback">
+                  유저네임이 필요합니다
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12">
+              <label for="email" class="form-label">Email <span class="text-muted">(Optional)</span></label>
+              <input type="email" class="form-control" id="email" placeholder="you@example.com">
+              <div class="invalid-feedback">
+                유효한 이메일 주소를 입력해주세요
+              </div>
+            </div>
+
+            <div class="col-12">
+              <label for="address" class="form-label">주소</label>
+              <input type="text" class="form-control" id="address" placeholder="서부로 2106번길" required>
+              <div class="invalid-feedback">
+                유효한 주소를 입력해주세요
+              </div>
+            </div>
+
+            <div class="col-12">
+              <label for="address2" class="form-label">상세주소 <span class="text-muted">(Optional)</span></label>
+              <input type="text" class="form-control" id="address2" placeholder="아파트 동-호수">
+            </div>
+
+            <div class="col-md-5">
+              <label for="country" class="form-label">국가</label>
+              <select class="form-select" id="country" required>
+                <option value="">Choose...</option>
+                <option>대한민국</option>
+              </select>
+              <div class="invalid-feedback">
+                유효한 나라를 입력해주세요
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <label for="state" class="form-label">도</label>
+              <select class="form-select" id="state" required>
+                <option value="">Choose...</option>
+                <option>경기도</option>
+                <option>서울</option>
+              </select>
+              <div class="invalid-feedback">
+                유효한 주소를 입력해주세요
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <label for="zip" class="form-label">우편번호</label>
+              <input type="text" class="form-control" id="zip" placeholder="" required>
+              <div class="invalid-feedback">
+                우편번호를 입력해주세요
+              </div>
+            </div>
+          </div>
+
+          <hr class="my-4">
+
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="same-address">
+            <label class="form-check-label" for="same-address">배송 주소지와 결제 영수증의 주소지가 동일합니다</label>
+          </div>
+
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="save-info">
+            <label class="form-check-label" for="save-info">다음 결제를 위해 정보를 저장합니다</label>
+          </div>
+
+          <hr class="my-4">
+
+          <h4 class="mb-3">결제 방식</h4>
+
+          <div class="my-3">
+            <div class="form-check">
+              <input id="credit" name="paymentMethod" type="radio" class="form-check-input" checked required>
+              <label class="form-check-label" for="credit">신용 카드</label>
+            </div>
+            <div class="form-check">
+              <input id="debit" name="paymentMethod" type="radio" class="form-check-input" required>
+              <label class="form-check-label" for="debit">체크 카드</label>
+            </div>
+          </div>
+
+          <div class="row gy-3">
+            <div class="col-md-6">
+              <label for="cc-name" class="form-label">카드 소유주</label>
+              <input type="text" class="form-control" id="cc-name" placeholder="" required>
+              <small class="text-muted">카드에 적힌 이름을 모두 입력해주세요</small>
+              <div class="invalid-feedback">
+                카드 이름을 입력해주세요
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <label for="cc-number" class="form-label">카드 번호</label>
+              <input type="text" class="form-control" id="cc-number" placeholder="" required>
+              <div class="invalid-feedback">
+                카드번호를 입력해주세요
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <label for="cc-expiration" class="form-label">만기 날짜</label>
+              <input type="text" class="form-control" id="cc-expiration" placeholder="" required>
+              <div class="invalid-feedback">
+                만료날짜를 입력해주세요
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <label for="cc-cvv" class="form-label">CVV</label>
+              <input type="text" class="form-control" id="cc-cvv" placeholder="" required>
+              <div class="invalid-feedback">
+                CVV를 입력해주세요
+              </div>
+            </div>
+          </div>
+
+          <hr class="my-4">
+
+          <button class="w-100 btn btn-primary btn-lg" type="submit" id="checkout">결제하기</button>
+        </form>
+      </div>
+    </div>
+  </main>
+
+  <footer class="container py-3 footer-margin">
+    <div class="row">
+        <div class="col-12 col-md">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mb-2" role="img" viewBox="0 0 24 24"><title>Product</title><circle cx="12" cy="12" r="10"/><path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"/></svg>
+            <p class="d-block mb-3 text-muted">&copy; 2023 Team Caffeine Addicts</p>
+        </div>
+        <br />
+        <p style="margin-top:-20px; margin-bottom:20px; color:#999; font-size:14px;">
+            <br />
+            <span style="white-space:nowrap;">사업자등록번호 : 123-45-67890 |</span>
+            <span style="white-space:nowrap;">통신판매업신고번호 : 제 2023-서울강남-00000호 |</span> 
+            <span style="white-space:nowrap;">대표이사 : SKKU CAFFEINE ADDICTS |</span>
+            <span style="white-space:nowrap;">주소 : 경기도 수원시 장안구 서부로 2066 |</span> 
+            <span style="white-space:nowrap;">대표전화 : 031-290-5114 |</span>
+            <span style="white-space:nowrap;">팩스 : 031-290-5114</span>
+        </p>
+    </div>
+    </footer>
+</div>
+
+      <script src="../src/cart.js"></script>
+  </body>
+</html>
