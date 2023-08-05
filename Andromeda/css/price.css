@@ -12,13 +12,18 @@ body {
 
 .price-margin {
     margin-top: 2.5rem!important;
-    margin-bottom: 2.5rem!important;
+    margin-bottom: 3.5rem!important;
     /*margin-left: 2.5rem!important;
     margin-right: 2.5rem!important;*/
 }
 
 .price-element {
     width: 400px;
+}
+
+.price-card-body {
+    padding-top: 40px;
+    padding-bottom: 30px;
 }
 
 .cell {
@@ -100,3 +105,4 @@ body {
     font-weight: 600;
     letter-spacing: 0em;
 }
+​
