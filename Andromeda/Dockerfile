@@ -2,10 +2,10 @@ FROM node:latest
 
 WORKDIR /app
 
-COPY ["pakage.json", "pakage-lock.json", "./"]
+COPY ["package.json", "package-lock.json", "./"]
 
 RUN npm install
 
 COPY ./ ./
 
-RUN npm start
+RUN npm run start
