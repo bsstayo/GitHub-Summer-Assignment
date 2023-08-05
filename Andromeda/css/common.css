@@ -74,19 +74,41 @@
 }
 
 .bosang {
-    padding-left: 2rem!important;
-    padding-right: 2rem!important;
-    margin-top: 2rem;
+    margin-top: 3rem;
     border-bottom: 1px solid var(--footer-border-color);
     padding: 17px 0 11px;
     color: grey;
+    font-size: 14px;
 }
 
-.footer_margin {
+.gakju {
+    margin-top: 1rem;
+    border-bottom: 1px solid var(--footer-border-color);
+    color: grey;
+    font-size: 14px;
+}
+
+.main-bosang {
+    margin-left: 5rem!important;
+    margin-right: 5rem!important;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    border-bottom: 1px solid var(--footer-border-color);
+    padding: 17px 0 11px;
+    color: grey;
+    font-size: 14px;
+}
+
+.footer-margin {
     margin-top: 2rem!important;
     margin-bottom: 3rem!important;
-    padding-left: 2rem!important;
-    padding-right: 2rem!important;
+}
+
+.main-footer-margin {
+    margin-top: 1rem!important;
+    margin-bottom: 2rem!important;
+    margin-left: 5rem!important;
+    margin-right: 5rem!important;
 }
 
 .footnote-number {
@@ -99,8 +121,20 @@
 .footnote a {
     vertical-align: inherit;
     color: inherit;
+    font-size: 10px;
 }
 
 .link:link, .link:visited, a:link, a:visited {
     text-decoration: none;
+}
+
+.add-footer {
+    margin-top: 3rem!important;
+}
+
+sub, sup {
+    position: relative;
+    font-size: .75em;
+    line-height: 0;
+    vertical-align: baseline;
 }

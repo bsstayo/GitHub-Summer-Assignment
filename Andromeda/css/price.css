@@ -13,4 +13,90 @@ body {
 .price-margin {
     margin-top: 2.5rem!important;
     margin-bottom: 2.5rem!important;
+    /*margin-left: 2.5rem!important;
+    margin-right: 2.5rem!important;*/
+}
+
+.price-element {
+    width: 400px;
+}
+
+.cell {
+    flex-direction: column;
+    padding-top: 4px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.feature-note {
+    color: #6e6e73;
+}
+
+.typography-body-reduced {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5714285714;
+    letter-spacing: 0em;
+    font-family: SF Pro KR,SF Pro Text,SF Pro Icons,Apple Gothic,HY Gulim,MalgunGothic,HY Dotum,Lexi Gulim,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.column {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    min-width: 0px;
+}
+
+.span-pipe:before {
+    content: "| ";
+    display: inline-block;
+    white-space: pre;
+}
+
+.span-pipe-wrap {
+    display: block;
+}
+
+.camera-feature-null {
+    display: block;
+    top: 12px;
+}
+
+.camera-feature-null.feature-null-secondary:before {
+    top: unset;
+    left: unset;
+}
+
+.feature-null-secondary {
+    position: relative;
+}
+
+.feature-null-secondary:before, .section-compare .feature-null:before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    border-radius: 50px;
+    transform: translate3d(-50%,-50%,0);
+    width: 28px;
+    height: 3px;
+    background: #1d1d1f;
+}
+
+.feature-null-secondary:before {
+    width: 6px;
+    height: 1px;
+}
+
+.typography-compare-size {
+    font-family: SF Pro KR,SF Pro Display,SF Pro Icons,Apple Gothic,HY Gulim,MalgunGothic,HY Dotum,Lexi Gulim,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 20px;
+    font-size: 20px;
+    line-height: 1.1;
+    font-weight: 600;
+    letter-spacing: 0em;
 }
