@@ -56,13 +56,6 @@
             </div>
             <span class="text-muted">1,350,000원</span>
           </li>
-          <!-- <li class="list-group-item d-flex justify-content-between lh-sm">
-            <div>
-              <h6 class="my-0">Third item</h6>
-              <small class="text-muted">Brief description</small>
-            </div>
-            <span class="text-muted">$5</span>
-          </li> -->
           <li class="list-group-item d-flex justify-content-between bg-light">
             <div class="text-success">
               <h6 class="my-0">할인 쿠폰</h6>
@@ -79,7 +72,7 @@
         <form class="card p-2">
           <div class="input-group">
             <input type="text" class="form-control" placeholder="쿠폰 번호를 입력하세요">
-            <button type="submit" class="btn btn-secondary">쿠폰 적용하기</button>
+            <button type="submit" class="btn btn-secondary" id="promo">쿠폰 적용하기</button>
           </div>
         </form>
       </div>
@@ -118,7 +111,7 @@
               <label for="email" class="form-label">Email <span class="text-muted">(Optional)</span></label>
               <input type="email" class="form-control" id="email" placeholder="you@example.com">
               <div class="invalid-feedback">
-                Please enter a valid email address for shipping updates.
+                유효한 이메일 주소를 입력해주세요
               </div>
             </div>
 
@@ -154,7 +147,7 @@
                 <option>서울</option>
               </select>
               <div class="invalid-feedback">
-                Please provide a valid state.
+                유효한 주소를 입력해주세요
               </div>
             </div>
 
@@ -162,7 +155,7 @@
               <label for="zip" class="form-label">우편번호</label>
               <input type="text" class="form-control" id="zip" placeholder="" required>
               <div class="invalid-feedback">
-                Zip code required.
+                우편번호를 입력해주세요
               </div>
             </div>
           </div>
@@ -200,7 +193,7 @@
               <input type="text" class="form-control" id="cc-name" placeholder="" required>
               <small class="text-muted">카드에 적힌 이름을 모두 입력해주세요</small>
               <div class="invalid-feedback">
-                Name on card is required
+                카드 이름을 입력해주세요
               </div>
             </div>
 
@@ -208,7 +201,7 @@
               <label for="cc-number" class="form-label">카드 번호</label>
               <input type="text" class="form-control" id="cc-number" placeholder="" required>
               <div class="invalid-feedback">
-                Credit card number is required
+                카드번호를 입력해주세요
               </div>
             </div>
 
@@ -216,7 +209,7 @@
               <label for="cc-expiration" class="form-label">만기 날짜</label>
               <input type="text" class="form-control" id="cc-expiration" placeholder="" required>
               <div class="invalid-feedback">
-                Expiration date required
+                만료날짜를 입력해주세요
               </div>
             </div>
 
@@ -224,14 +217,14 @@
               <label for="cc-cvv" class="form-label">CVV</label>
               <input type="text" class="form-control" id="cc-cvv" placeholder="" required>
               <div class="invalid-feedback">
-                Security code required
+                CVV를 입력해주세요
               </div>
             </div>
           </div>
 
           <hr class="my-4">
 
-          <button class="w-100 btn btn-primary btn-lg" type="submit">결제하기</button>
+          <button class="w-100 btn btn-primary btn-lg" type="submit" id="checkout">결제하기</button>
         </form>
       </div>
     </div>
