@@ -1,5 +1,4 @@
 import requests
-import random
 import datetime
 
 def get_random_quote():
