@@ -12,6 +12,9 @@ jobs:
    Login-Welcome:
       name: Login Welcome
       runs-on: ubuntu-latest
+      defaults:
+         run:
+            working-directory: ./login_welcome
 
       steps:
          - name: Checkout repository
@@ -28,4 +31,4 @@ jobs:
               if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
          - name: Run Python File
-           run: python ./login_welcome/welcome.py
+           run: python welcome.py
