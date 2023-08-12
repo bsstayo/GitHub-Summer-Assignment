@@ -1,9 +1,12 @@
 name: daily welcome
 
 on:
-   schedule:
-      - cron: '0 22 * * 1-5'
-      - cron: '30 23 * * 0,6'
+   #schedule:
+   #   - cron: '0 22 * * 1-5'
+   #   - cron: '30 23 * * 0,6'
+   push:
+      branches:
+         - feature-action-bsstayo
 
 jobs:
    Login-Welcome:
