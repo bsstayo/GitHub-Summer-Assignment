@@ -3,8 +3,8 @@
 Final Project를 위해 아이디어를 모아봅시다! 💡🚀🤯💪 
 
 ## #1 What's your ETA? ⏰
-1. 설명<br/>
-What's your ETA(Estimated Time of Appraisal)는 글로벌 시대에 맞춰 편리한 PR을 도와줍니다.
+### 1. 설명
+What's your ETA(Estimated Time of Appraisal)는 글로벌 시대에 맞춰 편리한 PR을 도와줍니다.<br/>
 전세계 어디에 있든, 팀원의 시간을 비교하여 대략 어느 시점에 PR을 확인할 수 있는지 제공합니다.
 
 >ex) John: New York, USA / Lily: London, UK / Minsu: Seoul, South Korea
@@ -25,10 +25,10 @@ What's your ETA(Estimated Time of Appraisal)는 글로벌 시대에 맞춰 편�
 > Minsu's Time: 2023/Aug/12 06:30 (Estimated: +52.5 hours)
 > ```
 
-2. 제출형식
+### 2. 제출형식
 깃허브 액션 + 파이썬 파일 등
 
-3. 테크 스택
+### 3. 테크 스택
 - GitHub Actions
 - Python
 - Docker
