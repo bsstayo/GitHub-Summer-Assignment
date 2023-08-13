@@ -32,3 +32,22 @@ What's your ETA(Estimated Time of Appraisal)는 글로벌 시대에 맞춰 편�
 - GitHub Actions
 - Python
 - Docker
+
+## #2 Simple Server Monitoring Action 
+### 1. 설명
+대규모 트래픽을 담당하는 서비스는 대부분 실시간으로 서버의 상황을 모니터링하는것이 가능하고 자체적인 복구 솔루션을 가지고 있습니다. 반면에 개인 프로젝트로 만든 서비스나 소규모 트래픽을 예상하고 만든 서비스인 경우는 실시간 서버 모니터링까지 구현하지 않는것이 대부분입니다. 하지만 소규모 서비스라 하더라도 사용자가 서비스를 요청했을때, 만약 서버에 문제가 생겨 응답하지 않는다면 서비스에 대한 신뢰도의 큰 하락으로 이어질 수 있습니다. <br/>
+따라서 깃허브 액션을 통해 일정시간마다 서버에 요청을 보내 서버의 상황을 확인할 수 있다면 소규모 서비스들은 매우 적은 노력과 비용으로 서버 모니터링 시스템을 구현할 수 있습니다.
+
+작동 예시 <br/>
+한시간마다 요청을 보낸다고 할경우.. <br/>
+깃허브 액션 -->(http 기반 요청)--> 서비스 <br/>
+if(응답이 온경우) -> job done <br/>
+else -> slack 알림 메시지 (서버에 문제가 생겼습니다) > job done
+### 2. 제출형식
+- github action
+- python script 
+### 3. 테크스택
+- Gihub Actions
+- Python
+- Slack WebHook
+- Shell Script?
