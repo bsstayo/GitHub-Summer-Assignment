@@ -34,7 +34,7 @@ function decrypt_Link(encryptedLink, key){
         const encryptedIndex = alphabet.indexOf(encryptedChar);
         const keyIndex = alphabet.indexOf(keyChar);
 
-        if(encryptedLink === -1){
+        if(encryptedIndex === -1){
             decryptLink += encryptedChar;
         }
         else{
