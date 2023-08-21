@@ -13,7 +13,7 @@ body{
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background: linear-gradient(#1c1917 50%, #ffb92a 50%);
+    background: #285C4D;
 }
 
 h1{
@@ -63,7 +63,7 @@ button{
     width: 50%;
     margin-bottom: 10px;
     border: none;
-    background-color: #35302d;
+    background-color: #002554;
     color: #fff;
     cursor: pointer;
     border-radius: 10px;
